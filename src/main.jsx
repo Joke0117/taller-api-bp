@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import SuperHeros from './components/SuperHeros.jsx'
+import Peliculas from './components/Peliculas.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <SuperHeros />
+    <Peliculas />
   </React.StrictMode>,
 )
