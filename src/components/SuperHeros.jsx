@@ -35,10 +35,9 @@ const SuperHeros = () => {
         }
     }
 
-
   return (
     <div>
-        <h1>API de Super Héroes</h1>
+        <h1>API de Películas Populares</h1>
         <h2>José Ángel Martínez</h2>
         <button onClick={traer}>Traer Películas</button>
         <button onClick={siguiente}>Siguiente</button>
@@ -48,8 +47,12 @@ const SuperHeros = () => {
             <h3>{pelicula.title}</h3>
             <h3>{pelicula.overview}</h3>
             <img src={`https://image.tmdb.org/t/p/w500/${pelicula.poster_path}`} alt={pelicula.title} />
+            <hr />
           </div>
         ))}
+        <h3>¡Gracias por visitarnos!</h3>
+        <h3>TÉRMINOS Y CONDICIONES</h3>
+        <h3>2023</h3>
     </div>
   )
 }
