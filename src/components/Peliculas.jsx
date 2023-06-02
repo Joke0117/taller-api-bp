@@ -39,9 +39,9 @@ const SuperHeros = () => {
     <div>
         <h1>API de Películas Populares</h1>
         <h2>José Ángel Martínez</h2>
-        <button onClick={traer}>Traer Películas</button>
-        <button onClick={siguiente}>Siguiente</button>
-        <button onClick={atras}>Atrás</button>
+        <button onClick={traer}style={{ marginRight: '10px', border: '1px solid blue' }}>Traer Películas</button>
+        <button onClick={siguiente}style={{ marginRight: '10px', border: '1px solid blue' }}>Siguiente</button>
+        <button onClick={atras}style={{ marginRight: '10px', border: '1px solid blue' }}>Atrás</button>
         {peliculas.map(pelicula => (
           <div key={pelicula.id}>
             <h3>{pelicula.title}</h3>
